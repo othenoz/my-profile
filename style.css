@@ -1,0 +1,105 @@
+body {
+  color: black;
+  background-color: #8EACCD;
+  margin: 0;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background: #DEE5D4;
+  margin: 20px;
+  padding: 40px;
+  border: 3px solid lightgrey;
+  text-align: left;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1);
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+h4 {
+  font-size: 28px;
+  font-family: "Basic", sans-serif;
+  color: #8EACCD;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+h1 {
+  color: #8EACCD;
+  font-size: 60px;
+  font-family: "Basic", sans-serif;
+  background-color: #D2E0FB;
+  text-align: center;
+  margin: 0;
+}
+
+img#photo_profil {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: -20px auto 20px;
+}
+
+ul {
+  text-align: left;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.RS {
+  width: 100vw;
+  background-color: #2C3E50;
+  padding: 20px 0;
+  text-align: center;
+  margin-left: calc(-50vw + 50%);
+  border-top: 5px solid #2980B9;
+}
+.RS h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.RS a {
+  margin: 0 15px;
+}
+.RS svg {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+.RS .linkedin:hover svg {
+  fill: #0077B5;
+}
+.RS .insta:hover svg {
+  fill: #E1306C;
+}
+.RS .twitter:hover svg {
+  fill: #1DA1F2;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
